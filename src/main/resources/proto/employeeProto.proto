@@ -1,0 +1,13 @@
+syntax = "proto3";
+option java_package = "com.application.database.application.dto";
+option java_outer_classname = "EmployeeProto";
+
+message EmployeeMsg {
+  int32 employeeid = 1;
+  string emp_name = 2;
+  int32 phoneNumber = 3;
+  int32 salary = 4;
+  string department = 5;
+
+
+}
